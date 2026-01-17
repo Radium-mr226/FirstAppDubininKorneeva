@@ -1,3 +1,4 @@
 # FirstAppDubininKorneeva
 -при нажатии на кнопку бросить кубик на экране появляется случайное число от 1 до 6 включительно, ка если бы человек бросал кубик
+
 -<img width="887" height="749" alt="image" src="https://github.com/user-attachments/assets/cb9c1aa1-676b-4825-9de8-4cc842289216" />
