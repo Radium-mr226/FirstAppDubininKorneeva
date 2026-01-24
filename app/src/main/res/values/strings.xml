@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">FirstAppDubininKorneeva</string>
+    <string name="roll_dice_button_text">Бросить кубик</string>
+    <string name="dice_result_hint">Нажмите кнопку чтобы бросить кубик</string>
+    <string name="dices">"Игральные кубики"</string>
 </resources>
