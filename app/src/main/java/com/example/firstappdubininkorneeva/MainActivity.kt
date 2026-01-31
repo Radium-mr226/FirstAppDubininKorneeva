@@ -1,13 +1,10 @@
 package com.example.firstappdubininkorneeva
 
 import android.os.Bundle
-import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import android.widget.EditText
-import android.widget.TextView
 import com.example.firstappdubininkorneeva.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -28,11 +25,12 @@ class MainActivity : AppCompatActivity() {
         }
         button_click()
     }
+
     fun button_click ()
     {
         binding.button2.setOnClickListener {
             binding.editTextNumber.setText((1..6).random().toString())
-            binding.textView3.text = "Выводится случайное число, выпавшее на кубике"
+            binding.textView3.text = getString(R.string.roll_dice_text_change)
         }
     }
 }
